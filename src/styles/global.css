@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+nav a + a {
+    margin-left: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    background: #6ecffc;
+}
+
+.projectCard {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectCard .card {
+    border: 1px solid black;
+    padding: 1rem;
+}
