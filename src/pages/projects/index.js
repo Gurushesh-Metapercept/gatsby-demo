@@ -13,7 +13,7 @@ export default function index({ data }) {
         {projects.map((project) => (
           <Link
             className="card"
-            to={"/projects" + project.slug}
+            to={"/projects/" + project.frontmatter.slug}
             key={project.id}
           >
             <div>

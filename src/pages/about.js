@@ -9,7 +9,9 @@ export default function about({ data }) {
     <Layout>
       <section>
         <h1>about</h1>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <div className="bigImage">
+          <Img fluid={data.file.childImageSharp.fluid} />
+        </div>
       </section>
     </Layout>
   );
